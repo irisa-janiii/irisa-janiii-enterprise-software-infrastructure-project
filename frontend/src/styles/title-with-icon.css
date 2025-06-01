@@ -1,0 +1,35 @@
+.container-title-icon {
+  display: flex;
+  align-content: center;
+  margin: 20px 0;
+}
+
+.container-title-icon i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 28px;
+  width: 28px;
+  background-color: var(--primary-color);
+  border-radius: 6px;
+  color: var(--text);
+  font-size: 24px;
+}
+
+.container-title-icon h2 {
+  color: var(--text);
+  font-weight: 900;
+  margin-left: 10px;
+  font-size: 22px;
+}
+
+@media (min-width: 992px) {
+  .container-title-icon i {
+    height: 35px;
+    width: 35px;
+  }
+
+  .container-title-icon h2 {
+    font-size: 28px;
+  }
+}

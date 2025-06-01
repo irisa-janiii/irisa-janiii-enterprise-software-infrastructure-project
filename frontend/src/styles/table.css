@@ -1,0 +1,125 @@
+.table-title {
+  display: flex;
+  justify-content: center;
+}
+
+.table {
+  background-color: var(--body);
+  border-collapse: collapse;
+  box-shadow: 2px 2px 12px var(--primary-color);
+  border-radius: 12px;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.table thead th {
+  background-color: var(--primary-color);
+  font-weight: bold;
+  padding: 20px 5px;
+}
+
+.table thead th:first-child {
+  border-top-left-radius: 12px;
+}
+
+.table thead th:last-child {
+  border-top-right-radius: 12px;
+}
+
+.table td {
+  background-color: var(--body);
+  vertical-align: middle;
+  padding: 20px 10px;
+  border-bottom: 3px solid #ccc;
+}
+
+.table th,
+.table td {
+  display: none;
+}
+
+.table th p,
+.table td p {
+  color: var(--text);
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.book-cover-image {
+  width: 50px;
+}
+
+.table-action {
+  display: flex;
+  justify-content: space-around;
+}
+
+.table-action-icon {
+  font-size: 30px;
+  border: none;
+  background-color: transparent;
+  color: var(--text);
+}
+
+.table-action-icon.edit {
+  color: var(--primary-color);
+}
+
+.table-action-icon:hover {
+  opacity: 0.7;
+}
+
+.table-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 40px 0;
+}
+
+.table-img img {
+  width: 200px;
+}
+
+.table th:nth-of-type(1),
+.table th:nth-of-type(2),
+.table th:last-child,
+.table td:nth-of-type(1),
+.table td:nth-of-type(2),
+.table td:last-child {
+  width: auto;
+  display: table-cell;
+}
+
+@media (min-width: 768px) {
+  .table th:nth-of-type(3),
+  .table th:nth-of-type(4),
+  .table th:last-child,
+  .table td:nth-of-type(3),
+  .table td:nth-of-type(4),
+  .table td:last-child {
+    width: auto;
+    display: table-cell;
+  }
+
+  .table-img img {
+    width: 250px;
+  }
+}
+
+@media (min-width: 992px) {
+  .table th,
+  .table td {
+    width: auto;
+    display: table-cell;
+  }
+
+  .table th p,
+  .table td p {
+    font-size: 18px;
+  }
+}
