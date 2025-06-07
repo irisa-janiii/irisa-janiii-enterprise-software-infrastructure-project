@@ -5,11 +5,11 @@ The Bookstore Management Web App is a comprehensive solution for managing book i
   
 ## Description
 
-The Bookstore Management Web App is a modern and feature-rich application that simplifies the complexities of bookstore management. Whether you're a small independent bookstore or a larger establishment, this app offers a seamless experience for handling your book-related operations.
+The Bookstore Management Web App is a modern and feature-rich application that simplifies the complexities of bookstore management. 
 
 Key features include:
 
-- **Inventory Control:** Easily manage your book inventory, add new books, update quantities, and track stock levels.
+- **Inventory Control:** Easily manage book inventory, add new books, update quantities, and track stock levels.
   
 - **Sales and Purchases:** Record sales transactions, manage purchases, and keep a detailed history of all financial transactions.
 
