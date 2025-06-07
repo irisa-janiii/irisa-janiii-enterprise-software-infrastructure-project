@@ -15,16 +15,6 @@ Key features include:
 
 - **Customer Registration:** Efficiently register and manage customer information for a personalized experience.
 
-- **Reports and Insights:** Generate reports on sales by customers, overall sales, purchases, and more to gain valuable business insights.
-
-Key features include:
-
-- **Inventory Control:** Easily manage your book inventory, add new books, update quantities, and track stock levels.
-  
-- **Sales and Purchases:** Record sales transactions, manage purchases, and keep a detailed history of all financial transactions.
-
-- **Customer Registration:** Efficiently register and manage customer information for a personalized experience.
-
 ## Technologies Used
 
 ### Back-end
